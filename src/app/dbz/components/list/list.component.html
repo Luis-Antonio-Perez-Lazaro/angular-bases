@@ -18,7 +18,9 @@
       <span class="text-primary"> {{ i + 1 }}. </span>
       <span>{{ character.name }} - </span>
       <strong>power: </strong>
-      <span>{{ character.power }} </span>
+      <span>{{ character.power }} - </span>
+      <strong>Transformaciones: </strong>
+      <span>{{ character.transformations }} </span>
     </div>
 
       <button (click)="onDeleteCharacter(character.id)" class="btn btn-danger">X</button>

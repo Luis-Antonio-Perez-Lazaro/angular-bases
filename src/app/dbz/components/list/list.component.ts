@@ -11,7 +11,8 @@ export class ListComponent {
   @Input()
   public characterList: Character[] = [{
     name: 'Trunks',
-    power: 10
+    power: 10,
+    transformations: 2
   }]
 
   @Output()

@@ -14,7 +14,8 @@ export class AddCharactersComponent {
 
   public character: Character = {
     name: '',
-    power: 0
+    power: 0,
+    transformations: 0
   };
 
   emitCharacter():void {
@@ -26,7 +27,7 @@ export class AddCharactersComponent {
 
     this.onNewCharacter.emit(this.character);
 
-    this.character = { name: '', power: 0 };
+    this.character = { name: '', power: 0, transformations: 0 };
     // this.character.name = '';
     // this.character.power = 0;
   }
